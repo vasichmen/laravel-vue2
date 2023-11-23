@@ -1,1 +1,1 @@
-Project template for laravel application with vuejj2 and vite
+Project template for laravel application with vuejs2 and vite
