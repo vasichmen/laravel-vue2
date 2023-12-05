@@ -13,7 +13,6 @@
     },
     "dependencies": {
         "@vitejs/plugin-vue2": "^2.2.0",
-        "element-ui": "^2.15.14",
         "object-to-formdata": "^4.5.1",
         "uuid": "^9.0.1",
         "vue": "^2.7.14",

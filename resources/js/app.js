@@ -6,8 +6,6 @@
 
 import App from './app.vue';
 import router from './routes';
-import ElementPlugin from 'element-ui';
-import locale from 'element-ui/lib/locale/lang/ru-RU';
 import Vue from 'vue';
 import VueCookies from 'vue-cookies';
 import Router from 'vue-router';
@@ -40,10 +38,6 @@ import ApiClient from "./api/ApiClient.js";
  * scaffolding. Otherwise, you will need to add an element yourself.
  */
 
-
-Vue.use(Router);
-Vue.use(VueCookies);
-Vue.use(ElementPlugin, { locale });
 
 //регистрация метода обновления токена
 ApiClient.registerRefreshTokenAction(() => {
